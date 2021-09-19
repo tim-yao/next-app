@@ -9,11 +9,13 @@ function TheArtOfWars({content}) {
       <Head>
         <title>孙子兵法</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
       <main className="content guwen">
-        <Header title="孙子兵法" />
         <div className="book">
+          <Header title="孙子兵法" />
+          <hr />
           {content.map((text) => (
             <div key={text.id} className="chapter">
               <h2>{text.Title}</h2>
