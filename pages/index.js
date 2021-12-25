@@ -9,6 +9,7 @@ export default function Home() {
       <Head>
         <title>Next.js test app!</title>
         <link rel="icon" href="/favicon.ico" />
+        <script type="text/javascript" src="/js/newrelic.js"></script>
       </Head>
 
       <main>
